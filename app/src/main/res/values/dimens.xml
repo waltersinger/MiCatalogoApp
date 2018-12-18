@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cornerCardV">6dp</dimen>
+    <dimen name="heighCardV">150dp</dimen>
+    <dimen name="paddingTextCardview">4dp</dimen>
+    <dimen name="card_margin">6dp</dimen>
+</resources>

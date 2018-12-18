@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_producto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/heighCardV"
+    app:cardCornerRadius="@dimen/cornerCardV"
+    app:cardElevation="3dp"
+    android:layout_margin="@dimen/card_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_view_producto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/paddingTextCardview"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_card_view_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_card_view_descripcioon"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:paddingLeft="@dimen/paddingTextCardview"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Precio: $ "
+                    android:textSize="18sp"
+                    android:paddingLeft="@dimen/paddingTextCardview"
+                    android:textColor="@color/colorPrimaryText"/>
+
+                <TextView
+                    android:id="@+id/text_view_precio"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="9999,99"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryText"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
