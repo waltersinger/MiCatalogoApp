@@ -1,4 +1,4 @@
-package com.wsinger.micatalogo.adapters;
+package com.wsinger.micatalogo.controllers;
 
 
 import android.support.v7.widget.RecyclerView;
