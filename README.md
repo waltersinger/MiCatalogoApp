@@ -9,3 +9,6 @@ Por esto he ideado una pequeña app, con opciones reducidas, pero será de mucha
 <p>No sera una gran aplicación pero tendra lo necesario para que cada persona pueda cargar,eliminar,guardar y registrar sus ventas desde su casa, ya que el servidor backend estaría localmente.</p>
 <p>Si necesitarían algo mas grande, es otro tema...
 El motivo es demostrar las habilidades que poseo para desarrollar apps.</p>
+<br/>
+- Modelo de datos:
+  - Articulos
