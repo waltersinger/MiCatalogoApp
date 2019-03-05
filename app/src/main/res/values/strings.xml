@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MiCatalogo</string>
+    <string name="openDrawer">Abriendo Menú</string>
+    <string name="closeDrawer">Cerrando menú</string>
 </resources>

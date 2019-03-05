@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group>
+        <item android:title="Login"
+            android:icon="@drawable/ic_login_key"/>
+
+        <item android:title="Ventas"
+            android:icon="@drawable/ic_venta_m"/>
+        <item android:title="Configuración"
+            android:icon="@drawable/ic_config_m"/>
+        <item android:title="Salir"
+            android:icon="@drawable/ic_salir_m"/>
+    </group>
+
+    <group>
+        <item android:title="Administrar">
+            <menu>
+                <item android:title="Categorías"
+                    android:id="@+id/m_categorias"
+                    android:icon="@drawable/ic_categ_m"/>
+                <item android:title="Articulos"
+                    android:id="@+id/m_articulos"
+                    android:icon="@drawable/ic_prod_m"/>
+                <item android:title="Clientes"
+                    android:id="@+id/m_clientes"
+                    android:icon="@drawable/ic_clientes_m"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

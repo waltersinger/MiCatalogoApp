@@ -1,6 +1,6 @@
 package com.wsinger.micatalogo.models;
 
-public class Articulos {
+public class Articulo {
 
     private int id;
     private String articulo;
@@ -11,9 +11,11 @@ public class Articulos {
     private int calificacion;
     private String descripcion;
 
+    public Articulo(){
 
+    }
 
-    public Articulos(int id, String articulo, String imagen, double costo, int id_categoria, double cantidad, int calificacion, String descripcion) {
+    public Articulo(int id, String articulo, String imagen, double costo, int id_categoria, double cantidad, int calificacion, String descripcion) {
         this.id = id;
         this.articulo = articulo;
         this.imagen = imagen;
@@ -24,7 +26,7 @@ public class Articulos {
         this.descripcion  = descripcion;
     }
 
-    public Articulos(String articulo, double costo, String descripcion) {
+    public Articulo(String articulo, double costo, String descripcion) {
         this.articulo = articulo;
         this.costo = costo;
         this.descripcion = descripcion;
@@ -60,5 +62,37 @@ public class Articulos {
 
     public int getCalificacion() {
         return calificacion;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setArticulo(String articulo) {
+        this.articulo = articulo;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
+    public void setCosto(double costo) {
+        this.costo = costo;
+    }
+
+    public void setId_categoria(int id_categoria) {
+        this.id_categoria = id_categoria;
+    }
+
+    public void setCantidad(double cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public void setCalificacion(int calificacion) {
+        this.calificacion = calificacion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 }

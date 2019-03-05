@@ -10,17 +10,17 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 import com.wsinger.micatalogo.R;
-import com.wsinger.micatalogo.models.Articulos;
+import com.wsinger.micatalogo.models.Articulo;
 
 import java.util.ArrayList;
 
 public class ArticulosAdapter extends RecyclerView.Adapter<ViewHolderRv> {
 
 
-    final ArrayList<Articulos> articulosArrayList;
+    final ArrayList<Articulo> articuloArrayList;
 
-    public ArticulosAdapter(ArrayList<Articulos> articulosArrayList) {
-        this.articulosArrayList = articulosArrayList;
+    public ArticulosAdapter(ArrayList<Articulo> articuloArrayList) {
+        this.articuloArrayList = articuloArrayList;
 
     }
 
@@ -37,25 +37,25 @@ public class ArticulosAdapter extends RecyclerView.Adapter<ViewHolderRv> {
 
     @Override
     public void onBindViewHolder(ViewHolderRv holder, int position) {
-         Articulos articulos = articulosArrayList.get(position);
+         Articulo articulo = articuloArrayList.get(position);
         ImageView imageView = holder.imageViewProd;
-        Picasso.get().load(R.drawable.camera_icon).into(imageView);
+        //Picasso.get().load(R.drawable.no_image).into(imageView);
 
 
         TextView textView = holder.textViewTitulo;
-        textView.setText(articulos.getArticulo());
+        textView.setText(articulo.getArticulo());
 
         TextView textViewD = holder.textViewDescripcion;
-        textViewD.setText(articulos.getDescripcion());
+        textViewD.setText(articulo.getDescripcion());
 
         TextView textVprecio = holder.textViewPrecio;
-        String precio = String.valueOf(articulos.getCosto());
+        String precio = String.valueOf(articulo.getCosto());
         textVprecio.setText(precio);
 
     }
 
     @Override
     public int getItemCount() {
-        return articulosArrayList.size();
+        return articuloArrayList.size();
     }
 }
