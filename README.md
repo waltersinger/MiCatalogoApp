@@ -11,7 +11,7 @@ Por esto he ideado una pequeña app, con opciones reducidas, pero será de mucha
 El motivo es demostrar las habilidades que poseo para desarrollar apps.</p>
 <br/>
 <p>Construcción de la aplicacion base. Cuando el usuario abra la app, se mostrara la siguiente UI: </p>
-![alt text](https://github.com/waltersinger/MiCatalogoApp/blob/master/images/MainScreen.png)
+![Screenshot](https://github.com/waltersinger/MiCatalogoApp/blob/master/images/MainScreen.png)
 
 <p>Sobre un drawer Layout ubicare los demas widgets utilizando el paradigma de MATERIAL DESIGN de google. Un Menu lateral se desplegara para mostrar opciones para un determinado usuario de la aplicacion (ADMINISTRADOR) </p>
 ![alt text](https://github.com/waltersinger/MiCatalogoApp/blob/master/images/MainMenu.png)
