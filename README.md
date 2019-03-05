@@ -16,4 +16,4 @@ El motivo es demostrar las habilidades que poseo para desarrollar apps.</p>
 <p>Sobre un drawer Layout ubicare los demas widgets utilizando el paradigma de MATERIAL DESIGN de google. Un Menu lateral se desplegara para mostrar opciones para un determinado usuario de la aplicacion (ADMINISTRADOR) </p>
 ![alt text](https://github.com/waltersinger/MiCatalogoApp/blob/master/images/MainMenu.png)
 <p>En la siguiente figura muestro el entorno de trabajo, en esta ocación estoy construyendo el acceso a las APIs para obtener un listado de articulos. Cabe aclarar que utilizo el patron SINGLETON para acceder a los servicios externos con la libreria Volley </p>
-![alt text](https://github.com/waltersinger/MiCatalogoApp/images/blob/master/WORKING%20WITH%20APPIS.png)
+![alt text](https://github.com/waltersinger/MiCatalogoApp/blob/master/images/WORKING%20WITH%20APPIS.png)
