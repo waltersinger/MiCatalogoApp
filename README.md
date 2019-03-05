@@ -6,9 +6,11 @@ Hay algunos que adquieren un espacio en tiendas ecomerce como mercadolibre pero 
 Por esto he ideado una pequeña app, con opciones reducidas, pero será de mucha utilidad para que los pequeños emprendedores puedan tener una administración "sistematizada" de sus productos y ventas.</p>
 <p>Tengo planificado realizarlo para IOS en un futuro, utilizando FLUTTER porque creo que va a ser una tecnología muy utilizada en poco tiempo.</p>
 <p>El backend lo realizare con MySQL y springboot para la comunicacion del mismo.</p>
-<p>No sera una gran aplicación pero tendra lo necesario para que cada persona pueda cargar,eliminar,guardar y registrar sus ventas desde su casa, ya que el servidor backend estaría localmente.</p>
+<p>No sera una gran aplicación pero tendra lo necesario para que cada persona pueda cargar,eliminar,guardar y registrar sus ventas desde su casa, ya que el servidor estaría localmente.</p>
 <p>Si necesitarían algo mas grande, es otro tema...
 El motivo es demostrar las habilidades que poseo para desarrollar apps.</p>
 <br/>
-- Modelo de datos:
-  - Articulos
+<p>Construcción de la aplicacion base. Cuando el usuario abra la app, se mostrara la siguiente UI: </p>
+
+<p>Sobre un drawer Layout ubicare los demas widgets utilizando el paradigma de MATERIAL DESIGN de google. Un Menu lateral se desplegara para mostrar opciones para un determinado usuario de la aplicacion (ADMINISTRADOR) </p>
+<p>  </p>
